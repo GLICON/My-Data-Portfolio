@@ -1,5 +1,19 @@
 # My-Data-Portfolio
 
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Data Sources](#data-sources)
+- [Tools](#tools)
+- [Data Cleaning/Preparation](#data-cleaning-process)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Analysis](#data-analysis)
+- [Results and Findings](#results-and-findings)
+- [Recomendations](#recommendations)
+- [Limitations](#limitations)
+- [References](#references)
+
+
 ### Project Overview
 
 This data analysis aims to provide answers to some questions by evaluating Amazon smartwatches and smartphones actual prices, discounted prices, percentage discounts and ratings.
@@ -15,7 +29,7 @@ Sales Data: The primary dataset used for this analysis is the "amazon.csv" file,
 - SQL Server (Data Analysis)
 - Excel (Data visualization)
 
-### Data Cleaning/Preparation
+### Data Cleaning Process
 
 In the initial data preparation phase, we performed the following tasks:
 1. Data loading and inspection
@@ -39,9 +53,31 @@ EDA involved exploring Amazon smartwristwatches and smartphones to answer key qu
 
 
 ### Data Analysis
+A statistical analysis of Amazon smartwatches and smartphones discount sales datatset is done using Ms Excel.
+
+<img width="482" alt="Screenshot 2025-06-04 at 11 27 54" src="https://github.com/user-attachments/assets/bf84a532-50e9-455a-a189-cf9775d12a6d" />
+
+<img width="564" alt="Screenshot 2025-06-04 at 11 28 17" src="https://github.com/user-attachments/assets/809c7b0d-2b3b-41fb-99fd-fc500f608b0a" />
+
+<img width="546" alt="Screenshot 2025-06-04 at 11 27 35" src="https://github.com/user-attachments/assets/c042f01e-13da-4b37-86c8-beb3c75bc2cb" />
+
+- Correlation coefficient, R = 0.36; confirming there is a moderately weak positive linear relationship between the actual price and discount percentage on Amazon smartwatches.
+  
+- Percentage of variability in %Discount data, R2 = 0.13 = 13%, the remaining 87% can be accounted for by using multiple regression
+
+- p-value = 0.002 = 0.2%; since p-value is much lesser than 10%, there’s no evidence against H0 (null hypothesis can be neglected) i.e. actual price of smartwatches is a statistically significant predictor of percentage discount.
+
+- regression line intercept, 0 = 61.611 ; when actual price is 0, the %discount is 61.61
+
+- regression line slope , 1 = 0.001; for every one unit increase in the actual price, the %discount increases by 0.001.
+
+Thus, the regression line equation is Y = 0.001X + 61.611
+i.e.                              
+%Discount = 0.001(actual_price) + 61.611
 
 <img width="521" alt="Screenshot 2025-06-04 at 11 24 16" src="https://github.com/user-attachments/assets/8ef7d3ed-ad16-48a6-bf11-2c6969e14068" />
-### Results/Findings
+
+### Results and Findings
 
 1. Amazon offered more competitive discounts on smartwatches, with an average discount of 69.82% compared to 23.29% for smartphones. The median and mode discounts for smartwatches are 74.5% and 75.0%, much higher than the 25% and 28% seen in smartphones. This implies that consumers looking for the best deals are more likely to find deeper and more frequent discounts on smartwatches than on smartphones on Amazon. Retailers may be using aggressive pricing strategies for smartwatches to attract buyers and increase sales in this category.
 
@@ -67,4 +103,7 @@ S.D. of 13.48 compared to 8.71 for smartphones.The greater variability suggests 
 
 1. The weak correlation between smartwatch prices and disoucnt percentages limits the predictive power of the regression model, as other factors like brand, demand, or inventory levels likely influence discounts but were not analyzed.
 
+### References
+
+1. Data source: Karkavelraja (2022). Amazon Sales Datasets [Online]. Available at: https://www.kaggle.com/datasets/karkavelrajaj/amazon-sales-dataset
 

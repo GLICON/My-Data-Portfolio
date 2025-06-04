@@ -74,7 +74,7 @@ Thus, the regression line equation is Y = 0.001X + 61.611
 i.e.                              
 %Discount = 0.001(actual_price) + 61.611
 
-<img width="521" alt="Screenshot 2025-06-04 at 11 24 16" src="https://github.com/user-attachments/assets/8ef7d3ed-ad16-48a6-bf11-2c6969e14068" />
+<img width="556" alt="Screenshot 2025-06-04 at 11 01 14" src="https://github.com/user-attachments/assets/b184b7a0-a32c-4498-af93-817cd2bc4064" />
 
 ### Results and Findings
 

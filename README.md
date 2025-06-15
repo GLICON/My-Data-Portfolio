@@ -92,7 +92,7 @@ S.D. of 13.48 compared to 8.71 for smartphones.The greater variability suggests 
 
 ### Recommendations
 
-1. Amazon should increase the average discount on next smartwatch releases to around 70-75%, aligning with the current high median (74.5%) and mode (75%) discounts, while maintaining larger absolute disounts on higher-priced models to attract premium buyers and clear inventory in India :)
+1. Amazon should increase the average discount on next smartwatch releases to around 70-75%, aligning with the current avergae and most frequent discounts, while maintaining larger absolute disounts on higher-priced models to attract premium buyers and clear inventory in India :)
 
 2. For smartphones, Amazon can raise the average discount to approximately 25 - 30%, closer  to the current median (25%) and mode (28%) to experiment with varied discount levels to match the 13.48% standard deviation seen in smartwatches, targeting diverse customer segments.
 

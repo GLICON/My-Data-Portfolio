@@ -1,0 +1,34 @@
+# San-Francisco-Intern-Salaries-Analysis
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Data Sources](#data-sources)
+- [Tools](#tools)
+- [Data Cleaning/Preparation](#data-cleaning-process)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Analysis](#data-analysis)
+- [Results and Findings](#results-and-findings)
+- [Recomendations](#recommendations)
+- [Limitations](#limitations)
+- [References](#references)
+
+
+### Project Overview
+
+This data analysis aims to provide answers to some questions by evaluating Amazon smartwatches and smartphones actual prices, discounted prices, percentage discounts and ratings in India.
+
+
+### Data Sources
+
+Sales Data: The primary dataset used for this analysis is the "amazon.csv" file, containing detailed information about each sale made by the company.
+
+### Tools
+
+- SQL (Data cleaning, querying and aggregation (ETL process))
+- Python (Numpy - computations
+          SciPy for statistical testing
+          Pandas - Further processing)
+- Tableau Public - (Data Visualization)
+
+

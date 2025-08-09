@@ -16,7 +16,7 @@ This project analyzes the relationship between advertising budgets across three 
 - [References](#references)
 
 ### Project Overview
-This project analyzes the relationship between advertising budgets across three channnels (TV, Radio and Newspaper) and their impact on sales. The major aim is to uncover insights through which advertising channels drive sales, identify the trends and provide recommendations for optimizing advertising budgets.
+This project analyzes the relationship between advertising budgets across three channnels (TV, Radio and Newspaper) and their impact on sales. The major aim is to uncover insights into advertising effectiveness, optimal budget allocation and high-performing combinations.
 
 ### Data Sources
 The primary data source is "Advertising Budget and Sales.csv" file, containing 200 records with the following columns:
@@ -33,8 +33,8 @@ The primary data source is "Advertising Budget and Sales.csv" file, containing 2
 
 ### Tools
 - Excel (Data cleaning)
-- pgSQL (Data sorting)
-- Python (Panda - Data Aggregation)
+- pgSQL (Data querying)
+- Python (Panda - Statistical analysis and Data Aggregation)
 - Power BI (Data Visualization)
 
 ### Data Cleaning and Preparation
@@ -42,7 +42,7 @@ In the initial data preparation phase, the following tasks were performed as lis
 
 1. Checked for missing or null values
 2. Ensured the numerical columns (e.g., TV Ad Budget, Radio Ad Budget, Newspaper Ad Budget and Sales) were kept as float for accurate computations
-3. Checked for outliers using z-scores
+3. Checked for outliers using z-scores:
    - TV Ad Budget ($): No extreme outliers
    - Radio Ad Budget ($): No extreme outliers
    - Newspaper Ad Budget ($): One outlier (144)

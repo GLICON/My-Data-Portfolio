@@ -43,10 +43,10 @@ In the initial data preparation phase, the following tasks were performed as lis
 1. Checked for missing or null values
 2. Ensured the numerical columns (e.g., TV Ad Budget, Radio Ad Budget, Newspaper Ad Budget and Sales) were kept as float for accurate computations
 3. Checked for outliers using z-scores
-   TV Ad Budget ($): No extreme outliers
-   Radio Ad Budget ($): No extreme outliers
-   Newspaper Ad Budget ($): One outlier (144)
-   Sales ($): No extreme outliers  
+   - TV Ad Budget ($): No extreme outliers
+   - Radio Ad Budget ($): No extreme outliers
+   - Newspaper Ad Budget ($): One outlier (144)
+   - Sales ($): No extreme outliers  
 
 
 ### Data Extraction and Querying

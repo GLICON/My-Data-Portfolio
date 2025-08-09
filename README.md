@@ -25,11 +25,14 @@ The primary data source is "Advertising Budget and Sales.csv" file, containing 2
 - Radio Ad Budget ($): Advertising budget spent on Radio.
 - Newspaper Ad Budget ($): Advertising budget spent on Newspaper.
 - Sales ($): The sales made from the adveritisment.
+
   
 ### Questions
-1. What is the combined effect of TV and Radio advertising on sales when Newspaper spending is minimal (e.g. < 10)?
-
-2. Are there specific combinations of advertising budgets that consistently lead to high sales (e.g. Sales > 20)?
+1. How does the TV advertising vary across different budget ranges (e.g. Low, Medium or High)?
+   
+2. What is the combined effect of TV and Radio advertising on sales when Newspaper spending is minimal (e.g. < 10)?
+  
+3. Are there specific combinations of advertising budgets that consistently lead to high sales (e.g. Sales > 20)?
 
 ### Tools
 - Excel (Data cleaning)
@@ -46,11 +49,17 @@ In the initial data preparation phase, the following tasks were performed as lis
    - TV Ad Budget ($): No extreme outliers
    - Radio Ad Budget ($): No extreme outliers
    - Newspaper Ad Budget ($): One outlier (144)
-   - Sales ($): No extreme outliers  
-
+   - Sales ($): No extreme outliers
+All outliers are demmed plausible.
 
 ### Data Extraction and Querying
-The dataset is quereied using pgSQL:
+The dataset is imported into pgSQL after the following query:
+<img width="487" height="138" alt="Screenshot 2025-08-09 at 12 33 24" src="https://github.com/user-attachments/assets/1ee6323b-709e-4a26-8ec3-424fd13c96d8" />
+
+
+The dataset is queried using pgSQL:
+Question 2: Combined effect of TV and Radio with Minimal Newspaper Spending
+
 
 
 ### Exploratory Data Analysis

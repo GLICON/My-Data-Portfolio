@@ -1,1 +1,12 @@
+# Project Overview
+This projects aims to analyze the relationship between advertising budgets across different media channels (TV, Radio, Newspaper) and their impact on sales. The objective is to unconer insights intonhow budget allocations influence sales outcomes, identoify trends and provide actionabe recommendations for optimizing advertising strategies.
+
+## Data Source
+The primare dataset is provided in the file "Advertising Budget and Sales.csv" containing 200 rows and 4 columns:
+- TV Ad Budget ($): Budget allocated to TV advertising.
+- Radio Ad Budget ($): Budget allocated to Radio advertising.
+- Newspaper Ad Budget ($): Budget allocated to Newspaper advertising.
+- Sales ($): Sales figures associated with the advertising budgets.
+
+## Questions
 

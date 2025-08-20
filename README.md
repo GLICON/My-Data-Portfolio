@@ -54,11 +54,28 @@ All outliers are demmed plausible.
 
 ### Data Extraction and Querying
 The dataset is imported into pgSQL after the following query:
+
 <img width="487" height="138" alt="Screenshot 2025-08-09 at 12 33 24" src="https://github.com/user-attachments/assets/1ee6323b-709e-4a26-8ec3-424fd13c96d8" />
 
 
 The dataset is queried using pgSQL:
-Question 2: Combined effect of TV and Radio with Minimal Newspaper Spending
+Q1: TV Budget Ranges (Low: <100, Medium: 100-200, High < 200)
+<img width="512" height="354" alt="Screenshot 2025-08-19 at 12 54 04" src="https://github.com/user-attachments/assets/e94d3b8a-1223-4acf-a1db-ebe6462a829d" />
+
+<img width="624" height="121" alt="Screenshot 2025-08-19 at 12 51 26" src="https://github.com/user-attachments/assets/e039413e-95ce-407a-99aa-d59a11e6cb72" />
+
+Q2: TV and Radio Advertisement Effect (Newspaper ad budget < 10)
+<img width="410" height="93" alt="Screenshot 2025-08-19 at 13 05 39" src="https://github.com/user-attachments/assets/c8d25c65-1b58-4e62-8bb0-05d8e5dbebf4" />
+
+Q3: Budget Combinations (Sales > 20)
+<img width="570" height="91" alt="Screenshot 2025-08-19 at 13 37 04" src="https://github.com/user-attachments/assets/c6406dbf-3dfe-4f46-a3b7-becd4c2b2881" />
+
+Exploratory Data Analysis
+
+
+
+
+
 
 
 

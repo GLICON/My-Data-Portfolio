@@ -57,7 +57,6 @@ The dataset is imported into pgSQL after the following query:
 
 <img width="487" height="138" alt="Screenshot 2025-08-09 at 12 33 24" src="https://github.com/user-attachments/assets/1ee6323b-709e-4a26-8ec3-424fd13c96d8" />
 
-
 The dataset is queried using pgSQL:
 Q1: TV Budget Ranges (Low: <100, Medium: 100-200, High < 200)
 <img width="512" height="354" alt="Screenshot 2025-08-19 at 12 54 04" src="https://github.com/user-attachments/assets/e94d3b8a-1223-4acf-a1db-ebe6462a829d" />

@@ -62,6 +62,7 @@ Q1: TV Budget Ranges (Low: <100, Medium: 100-200, High < 200)
 <img width="512" height="354" alt="Screenshot 2025-08-19 at 12 54 04" src="https://github.com/user-attachments/assets/e94d3b8a-1223-4acf-a1db-ebe6462a829d" />
 
 Q2: TV and Radio Advertisement Effect (Newspaper ad budget < 10)
+
 <img width="410" height="93" alt="Screenshot 2025-08-19 at 13 05 39" src="https://github.com/user-attachments/assets/c8d25c65-1b58-4e62-8bb0-05d8e5dbebf4" />
 
 Q3: Budget Combinations (Sales > 20)

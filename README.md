@@ -21,19 +21,19 @@ This project analyzes the Wine Quality datasets to uncover actionable insights i
 ### Data Sources
 The primary dataset is sourced from the provided "WineQT.csv" file, derived from the UCI Wine Quality dataset. It includes 1143 records with the following columns:
 
-id: Sequential identifier
-fixed acidity: Tartaric acid (g/dm³)
-volatile acidity: Acetic acid (g/dm³)
-citric acid: Citric acid
-residual sugar: Sugar post-fermentation (g/dm³)
-chlorides: Sodium chloride (g/dm³)
-free sulfur dioxide: Free SO₂ (mg/dm³)
-total sulfur dioxide: Total SO₂ (mg/dm³)
-density: Density SO₂ (g/cm³)
-pH: Acidity level (0-14 scale)
-sulphates: Potassium sulphate (mg/dm³)
-alcohol: Alcohol content (% by volume)
-quality; Expert-rated score (3-8)
+- id: Sequential identifier
+- fixed acidity: Tartaric acid (g/dm³)
+- volatile acidity: Acetic acid (g/dm³)
+- citric acid: Citric acid
+- residual sugar: Sugar post-fermentation (g/dm³)
+- chlorides: Sodium chloride (g/dm³)
+- free sulfur dioxide: Free SO₂ (mg/dm³)
+- total sulfur dioxide: Total SO₂ (mg/dm³)
+- density: Density SO₂ (g/cm³)
+- pH: Acidity level (0-14 scale)
+- sulphates: Potassium sulphate (mg/dm³)
+- alcohol: Alcohol content (% by volume)
+- quality; Expert-rated score (3-8)
 
 ### Questions
 1. Which chemical properties in the wine have the strongest impact on quality ratings and how can these guide adjustments in the production process?

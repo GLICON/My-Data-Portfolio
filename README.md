@@ -50,45 +50,21 @@ The primary dataset is sourced from the provided "WineQT.csv" file, derived from
 - Python (Panda - Statistical analysis and Data Aggregation)
 - Power BI (Data Visualization)
 
-
-
-
 ### Data Cleaning and Preparation
 In the initial data preparation phase, the following tasks were performed as listed below:
 
-1. Checked for missing or null values
-2. Ensured the numerical columns (e.g., TV Ad Budget, Radio Ad Budget, Newspaper Ad Budget and Sales) were kept as float for accurate computations
-3. Checked for outliers using z-scores:
-   - TV Ad Budget ($): No extreme outliers
-   - Radio Ad Budget ($): No extreme outliers
-   - Newspaper Ad Budget ($): One outlier (144)
-   - Sales ($): No extreme outliers
-All outliers are demmed plausible.
+1. Checked for missing or null values:No missing value was found.
+2. Ensured numeric consistency by handling inconsistent data:  Columns containing floats were rounded to the best decimal poimt for accurate computations.
+3. Checked for duplicates:
+4. Checked for outliers: 
+5. Rearranged arrangement of columns: placed id as the first column in the dataset
+
+The dataset was filtered using SQL to filter out the ids from 0 to 200 with their respective chemical properties for analysis/manipulation. The new csv file is titled "wineQT_filtered.csv".
 
 ### Data Extraction and Querying
-The dataset is imported into pgSQL after the following query:
+The dataset is imported into pgSQL after cleaning on Excel for querying and filtering. It is then filtered using SQL to filter out the ids from 0 to 300 with their respective chemical properties for analysis/manipulation. The new csv file is titled "wineQT_filtered.csv". The attributes needed are fixed acidity, volatility acidity, citric acid, density, pH, sulphates, alcohol and quality.
 
-<img width="487" height="138" alt="Screenshot 2025-08-09 at 12 33 24" src="https://github.com/user-attachments/assets/1ee6323b-709e-4a26-8ec3-424fd13c96d8" />
-
-The dataset is queried using pgSQL:
-Q1: TV Budget Ranges (Low: <100, Medium: 100-200, High < 200)
-<img width="512" height="354" alt="Screenshot 2025-08-19 at 12 54 04" src="https://github.com/user-attachments/assets/e94d3b8a-1223-4acf-a1db-ebe6462a829d" />
-
-Q2: TV and Radio Advertisement Effect (Newspaper ad budget < 10)
-
-<img width="410" height="93" alt="Screenshot 2025-08-19 at 13 05 39" src="https://github.com/user-attachments/assets/c8d25c65-1b58-4e62-8bb0-05d8e5dbebf4" />
-
-Q3: Budget Combinations (Sales > 20)
-
-
-Exploratory Data Analysis
-
-
-
-
-
-
-
+1. Pearson correlation is used to examine the relationship between the quality and the chemical properties. Python (Pandas lib.) is used to find the correlati
 
 ### Exploratory Data Analysis
 

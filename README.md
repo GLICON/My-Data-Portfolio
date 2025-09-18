@@ -53,11 +53,11 @@ The primary dataset is sourced from the provided "WineQT.csv" file, derived from
 ### Data Cleaning and Preparation
 In the initial data preparation phase, the following tasks were performed as listed below:
 
-1. Checked for missing or null values:No missing value was found.
-2. Ensured numeric consistency by handling inconsistent data:  Columns containing floats were rounded to the best decimal poimt for accurate computations.
-3. Checked for duplicates:
-4. Checked for outliers: 
-5. Rearranged arrangement of columns: placed id as the first column in the dataset
+- Checked for missing or null values:No missing value was found.
+- Ensured numeric consistency by handling inconsistent data:  Columns containing floats were rounded to the best decimal poimt for accurate computations.
+- Checked for duplicates:
+- Checked for outliers: 
+- Rearranged arrangement of columns: placed id as the first column in the dataset
 
 The dataset was filtered using SQL to filter out the ids from 0 to 200 with their respective chemical properties for analysis/manipulation. The new csv file is titled "wineQT_filtered.csv".
 

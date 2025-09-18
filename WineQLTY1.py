@@ -1,7 +1,7 @@
 import pandas as pd
 from scipy.stats import ttest_ind
 
-# Load the filtered dataset
+# Load the filtered data
 df = pd.read_csv("wineQT_filtered.csv")
 
 # 1. Compute Pearson correlations between chemical properties and quality

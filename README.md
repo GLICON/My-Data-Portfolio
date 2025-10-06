@@ -47,25 +47,29 @@ The primary dataset is sourced from the provided "WineQT.csv" file, derived from
 ### Tools
 - Excel (Data cleaning)
 - pgSQL (Data querying)
-- Python (Panda - Statistical analysis and Data Aggregation)
+- Python (Panda - Data Aggregation)
 - Power BI (Data Visualization)
 
 ### Data Cleaning and Preparation
 In the initial data preparation phase, the following tasks were performed as listed below:
 
 - Checked for missing or null values:No missing value was found.
-- Ensured numeric consistency by handling inconsistent data:  Columns containing floats were rounded to the best decimal poimt for accurate computations.
-- Checked for duplicates:
-- Checked for outliers: 
+- Ensured numeric consistency by handling inconsistent data: Columns containing floats were rounded to the best decimal poimt for accurate computations.
+- Checked for duplicates: No duplicates were found
+- Checked for outliers:
+Box and Whisker plot, and IQR formula are used to check for outliers in the physicochemical properties of red wine variants
+
+<img width="633" height="442" alt="Screenshot 2025-10-06 at 04 40 09" src="https://github.com/user-attachments/assets/8b398d52-ee92-4200-9af5-05746710ea44" />
+
+- 
 - Rearranged arrangement of columns: placed id as the first column in the dataset
 
-The dataset was filtered using SQL to filter out the ids from 0 to 200 with their respective chemical properties for analysis/manipulation. The new csv file is titled "wineQT_filtered.csv".
 
 ### Data Extraction and Querying
-The dataset is imported into pgSQL after cleaning on Excel for querying and filtering. It is then filtered using SQL to filter out the ids from 0 to 300 with their respective chemical properties for analysis/manipulation. The new csv file is titled "wineQT_filtered.csv". The attributes needed are fixed acidity, volatility acidity, citric acid, density, pH, sulphates, alcohol and quality.
+The dataset is imported into pgSQL after cleaning on Excel for querying and filtering.
 
-1. Pearson correlation is used to examine the relationship between the quality and the chemical properties. Python (Pandas lib.) is used to find the correlati
-
+1.
+ 
 ### Exploratory Data Analysis
 
 ### Results and Findings

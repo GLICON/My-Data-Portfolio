@@ -53,6 +53,7 @@ The primary dataset is sourced from the provided "WineQT.csv" file, derived from
 ### Data Cleaning and Preparation
 In the initial data preparation phase, the following tasks were performed as listed below:
 
+- Rearranged arrangement of columns: placed id as the first column in the dataset
 - Checked for missing or null values:No missing value was found.
 - Ensured numeric consistency by handling inconsistent data: Columns containing floats were rounded to the best decimal poimt for accurate computations.
 - Checked for duplicates: No duplicates were found
@@ -61,15 +62,32 @@ Box and Whisker plot, and IQR formula are used to check for outliers in the phys
 
 <img width="633" height="442" alt="Screenshot 2025-10-06 at 04 40 09" src="https://github.com/user-attachments/assets/8b398d52-ee92-4200-9af5-05746710ea44" />
 
-- 
-- Rearranged arrangement of columns: placed id as the first column in the dataset
-
+The IQR formula is used in finding the outliers. The number of outliers are shown below:
+fixed acidity (44)
+volatile acidity (15)
+citric acid
+residual sugar (111)
+chlorides (74)
+free sulfur dioxide (18)
+total sulfur dioxide (40)
+density (38)
+pH (20)
+sulphates (43)
+alcohol (12)
 
 ### Data Extraction and Querying
 The dataset is imported into pgSQL after cleaning on Excel for querying and filtering.
 
-1.
- 
+1. The correlation function CORREL is used to find the correlation relationship between each property and quality. The result is shown in the table below:
+
+<img width="715" height="293" alt="Screenshot 2025-10-06 at 13 35 31" src="https://github.com/user-attachments/assets/f3083770-0cc0-4a4a-83aa-f3cdffea6293" />
+
+The correlation analysis reveals that alcohol exhibits the strongest positive correlation with quality (0.48), suggesting higher alcohol content enhances perceived quality. Conversely, volatile acidity shows a significant negative correlation, indicating that elevated levels detrimentally impact taste and overall rating, guiding quality assessments in wine making.
+
+2.
+
+
+
 ### Exploratory Data Analysis
 
 ### Results and Findings

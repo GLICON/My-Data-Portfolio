@@ -60,7 +60,7 @@ In the initial data preparation phase, the following tasks were performed as lis
 - Checked for outliers:
 Box and Whisker plot, and IQR formula are used to check for outliers in the physicochemical properties of red wine variants
 
-<img width="633" height="442" alt="Screenshot 2025-10-06 at 04 40 09" src="https://github.com/user-attachments/assets/8b398d52-ee92-4200-9af5-05746710ea44" />
+<img width="415" height="310" alt="WQ_Box plot and whiskers for outliers" src="https://github.com/user-attachments/assets/93f1cef3-9c80-46c4-9529-63288a24b167" />
 
 The IQR formula is used in finding the outliers. The number of outliers are shown below:
 fixed acidity (44)

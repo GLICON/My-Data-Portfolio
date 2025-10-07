@@ -47,7 +47,7 @@ The primary dataset is sourced from the provided "WineQT.csv" file, derived from
 ### Tools
 - Excel (Data cleaning)
 - pgSQL (Data querying)
-- Python (Panda - Data Aggregation)
+- Python (Panda - Data Aggregation, Matplot - Data Visualization)
 - Power BI (Data Visualization)
 
 ### Data Cleaning and Preparation
@@ -89,6 +89,7 @@ The correlation analysis reveals that alcohol exhibits the strongest positive co
 
 2. The Python script titled 'WineQT2.py' addresses the problem by analyzing the Wine Quality dataset to compare the typical chemical profiles of high-quality wines (rated 7 or above) against standard wines (rated 5-6). It solves the problem by loading the CSV data with pandas, filtering the dataset into the two quality categories, and computing mean values for key physiochemical features like alcohol, volatile acidity, and sulphates. The results are presented in a concise comparison table, highlighting differences that reveal patterns—such as higher alcohol and lower volatile acidity in premium wines.
 
+<img width="1200" height="800" alt="Physicochemical profiles comparison" src="https://github.com/user-attachments/assets/e3e7c09f-22e7-48b8-9009-7824f784d383" />
 
 
 ### Results and Findings

@@ -2,27 +2,39 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Load the dataset
+# Load the Wine Quality dataset
 df = pd.read_csv('WineQT.csv')
 
 # Define quality categories
 high_quality = df[df['quality'] >= 7]
 standard_quality = df[(df['quality'] >= 5) & (df['quality'] <= 6)]
 
-# Key chemical features
+# Key physiochemical features
 features = [
     'fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar',
     'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density',
     'pH', 'sulphates', 'alcohol'
 ]
 
-# Compute means for high-quality wines
+# Compute the means for high-quality wines
 high_means = high_quality[features].mean().round(2)
 
-# Compute means for standard wines
+# Compute the means for standard wines
 standard_means = standard_quality[features].mean().round(2)
 
-# Create the bar chart
+# Create a comparison DataFrame
+comparison = pd.DataFrame({
+    'High-Quality Mean (>=7)': high_means,
+    'Standard Mean (5-6)': standard_means
+})
+
+# Add sample sizes
+print(f"High-Quality samples: {len(high_quality)}")
+print(f"Standard samples: {len(standard_quality)}")
+print("\nChemical Profiles Comparison:")
+print(comparison)
+
+# Create the bar chart for the comparison
 x = np.arange(len(features))  # the label locations
 width = 0.35  # the width of the bars
 
@@ -33,7 +45,7 @@ rects2 = ax.bar(x + width/2, standard_means, width, label='Standard (5-6)', colo
 # Add some text for labels, title and custom x-axis tick labels, etc.
 ax.set_xlabel('Chemical Features')
 ax.set_ylabel('Mean Value')
-ax.set_title('Chemical Profiles Comparison: High-Quality vs Standard Wines')
+ax.set_title('Physicochemical Profiles Comparison: High-Quality vs Standard Wines')
 ax.set_xticks(x)
 ax.set_xticklabels(features, rotation=45, ha='right')
 ax.legend()

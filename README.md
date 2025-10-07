@@ -76,19 +76,20 @@ sulphates (43)
 alcohol (12)
 
 ### Data Extraction and Querying
-The dataset is imported into pgSQL after cleaning on Excel for querying and filtering.
 
+
+
+
+### Exploratory Data Analysis
 1. The correlation function CORREL is used to find the correlation relationship between each property and quality. The result is shown in the table below:
 
 <img width="715" height="293" alt="Screenshot 2025-10-06 at 13 35 31" src="https://github.com/user-attachments/assets/f3083770-0cc0-4a4a-83aa-f3cdffea6293" />
 
 The correlation analysis reveals that alcohol exhibits the strongest positive correlation with quality (0.48), suggesting higher alcohol content enhances perceived quality. Conversely, volatile acidity shows a significant negative correlation, indicating that elevated levels detrimentally impact taste and overall rating, guiding quality assessments in wine making. 
 
-2.
+2. The Python script titled 'WineQT2.py' addresses the problem by analyzing the Wine Quality dataset to compare the typical chemical profiles of high-quality wines (rated 7 or above) against standard wines (rated 5-6). It solves the problem by loading the CSV data with pandas, filtering the dataset into the two quality categories, and computing mean values for key physiochemical features like alcohol, volatile acidity, and sulphates. The results are presented in a concise comparison table, highlighting differences that reveal patterns—such as higher alcohol and lower volatile acidity in premium wines.
 
 
-
-### Exploratory Data Analysis
 
 ### Results and Findings
 

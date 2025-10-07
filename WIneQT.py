@@ -2,24 +2,24 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Load the dataset
+# Load the Wine Quality dataset
 df = pd.read_csv('WineQT.csv')
 
 # Define quality categories
 high_quality = df[df['quality'] >= 7]
 standard_quality = df[(df['quality'] >= 5) & (df['quality'] <= 6)]
 
-# Key chemical features
+# Key physiochemical features
 features = [
     'fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar',
     'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density',
     'pH', 'sulphates', 'alcohol'
 ]
 
-# Compute means for high-quality wines
+# Compute the means for high-quality wines
 high_means = high_quality[features].mean().round(2)
 
-# Compute means for standard wines
+# Compute the means for standard wines
 standard_means = standard_quality[features].mean().round(2)
 
 # Create a comparison DataFrame
@@ -34,7 +34,7 @@ print(f"Standard samples: {len(standard_quality)}")
 print("\nChemical Profiles Comparison:")
 print(comparison)
 
-# Create the bar chart
+# Create the bar chart for the comparison
 x = np.arange(len(features))  # the label locations
 width = 0.35  # the width of the bars
 

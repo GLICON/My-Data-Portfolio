@@ -127,7 +127,7 @@ These recommendations prioritize cost-effective, scalable changes, with ROI from
 
 
 ### Limitations
-- The provided data is truncated (~33% of a standard 1599-sample dataset), so percentages may vary slightly in the complete set. However, the pattern holds, and further analysis (e.g., correlating quality with features like alcohol or sulphates) could reveal drivers.
+- The provided data is truncated (~33% of a standard 1599-sample dataset), so percentages may vary slightly in the complete set. 
 - Quality scores subjective (expert tasters); no consumer preference data.
 - No temporal data (vintage effects) or cost metrics for adjustments.
 - The Vinho Verde wine variant has 1143 vs. UCI's 1599 samples, potentially reducing statistical power

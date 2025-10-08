@@ -84,7 +84,7 @@ The correlation analysis reveals that alcohol exhibits the strongest positive co
 
 3. Using pandas, we compute the distributions and visualized trends for the red wine dataset to guide inventory managament and marketing. The 'quality' column rates wines on a scale from 3 (lowest) to 9 (highest), based on sensory data. The distribution is highly imbalanced, with the vast majority of wines falling into the average quality range (5 and 6), reflecting real-world wine production where "good enough" wines dominate.The python code is titled 'WineQT3'.
 
-<img width="504" height="113" alt="Quality Distribution Table" src="https://github.com/user-attachments/assets/14bb1161-354d-48a1-82b9-5ef4c5f47a4c" />
+<img width="511" height="133" alt="Quality Distribution Table" src="https://github.com/user-attachments/assets/63a40a9b-6f2c-47ba-9397-c71187c5e35a" />
 
 The distribution of the wine quality is shown in  the figure below:   
 <img width="800" height="500" alt="Wine Quality Distribution" src="https://github.com/user-attachments/assets/c79b208e-9c4d-4461-902b-fee506f852c9" />
